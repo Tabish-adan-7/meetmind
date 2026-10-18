@@ -1,0 +1,18 @@
+# requirements.txt
+# List of Python packages this project needs.
+# To install all: pip install -r requirements.txt
+
+# Web framework for building the API server
+fastapi
+
+# The server that runs our FastAPI app
+uvicorn[standard]
+
+# Loads secret keys from the .env file
+python-dotenv
+
+# Checks data shapes (validation)
+pydantic
+
+# Official Google Gemini AI library
+google-genai
